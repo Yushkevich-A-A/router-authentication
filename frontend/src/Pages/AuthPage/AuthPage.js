@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import AuthForm from '../../Components/AuthForm/AuthForm';
 import { Redirect } from 'react-router';
 import Header from '../../Components/Header/Header';

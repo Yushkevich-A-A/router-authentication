@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import News from './News/News';
 
@@ -9,7 +10,7 @@ function NewsList(props) {
     return (
         <div className='news-list'>
             {
-                list.map( item => <News key={item.id} item={item}/>)
+                list.map( item => <Link to={`/news/${item.id}`} key={item.id}><News item={item}/></Link>)
             }
         </div>
     )

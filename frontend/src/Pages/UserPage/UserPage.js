@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useEffect, useContext } from 'react';
 import { Redirect } from 'react-router';
 import Header from '../../Components/Header/Header';
 import NewsList from '../../Components/NewsList/NewsList';
